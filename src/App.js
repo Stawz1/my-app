@@ -17,8 +17,8 @@ function App() {
       </div>
       <SidebarOrNoSidebar isSidebar={sidebar}/>
       <div style={{display: 'flex', flex: '1', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-        <div style={{width: '600px', display: 'flex', flexDirection: 'column'}}>
-          <button class='CreateBracket' style={{display: 'flex', alignSelf: 'end'}}>Create bracket</button>
+        <div style={{width: '80vw', maxWidth: '500px', minWidth: '200px', display: 'flex', flexDirection: 'column'}}>
+          <button class='CreateBracket' style={{display: 'flex', alignSelf: 'end', height: '50px', width: '75px'}}>Create bracket</button>
           <div style={{alignItems: 'center'}}>
             <BracketEntry />
             <BracketEntry />
