@@ -1,0 +1,23 @@
+.Sidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    top: 50px;
+
+    background-color: rgb(60, 98, 99);
+}
+
+.SidebarItems {
+    width: 100px;
+}
+
+.SidebarItem {
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    color: rgb(214, 221, 228);
+    text-decoration: none;
+}

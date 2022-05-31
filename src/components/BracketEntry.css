@@ -1,0 +1,16 @@
+.BracketEntry {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    height: 150px;
+    border-width: 2px;
+    border-color: rgb(198, 210, 210);
+    border-style: solid;
+    margin: 10px;
+}
+
+.h1 {
+    text-align: center;
+}
